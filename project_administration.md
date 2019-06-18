@@ -18,10 +18,8 @@ Thomas   | tze.tang@imperial.ac.uk
     - seriesness  
     - occrrence  
 - education  
+- girls
 
 ## Sustainability consideration
 
-- environmental  
-- social and economic benefits  
-- customer satisfaction - survive long in the market
-- keep developing examples and tutorials
+This team has kept sustainability in mind from day 1. The product needs to be both environmental friendly and social-economically benificial. Electronic components and other production materials have been chosen from responsible suppliers. For example, wood has been used for the prototype instead of acrylic, which is non-degradable plastic. Bit:board has been designed to have a long lifespan - users are expected to use it from Year 7 to pre-university. This is because bit:board is a platform of creativity rather than a single-use product. Teenagers can realize projects of various difficulties on bit:board as their learning deepens. This could mean less waste both in money and in material sense. This team and micro:bit would keep developing interesting examples and tutorials to keep bit:board as a useful tool.
