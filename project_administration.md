@@ -13,12 +13,13 @@ Thomas   | tze.tang@imperial.ac.uk
 
 ## Ethical Consequences
 
+bit:board has the same aim as micro:bit - inspire children's interest in learning electronics and programming. The development of bit:board always keeps this in mind. By developing this open platform, the team hopes that it could be the place for next generation to release their creativity, facilitate their education, especially for girls.
+
 - quality  
 - saftey  
     - seriesness  
     - occrrence  
-- education  
-- girls
+
 
 ## Sustainability consideration
 
