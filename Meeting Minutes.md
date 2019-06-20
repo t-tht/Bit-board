@@ -10,7 +10,7 @@ Compiling the bits and pieces from notebooks together has been a good review of 
 - agreed action points  
 - estimated next meeting/update
 
-## 1, Briefing with Jonny  
+## Briefing with Jonny  
 30 Apr 2019, 610b  
 all team members, Johny from micro:bit  
 - team member self-introduction
@@ -43,7 +43,7 @@ all team members, Johny from micro:bit
 
 - proposed next team meeting: before the end of week 1
 
-## 2, Concept Brainstorm
+## Concept Brainstorm
 2 May 2019, all team members
 - ideas discussed:
     - feature phone
@@ -51,10 +51,12 @@ all team members, Johny from micro:bit
     - PS4 + keyboard
     - music controller, piano like keyboard
 - Research outcome has been shared among members.
-- Questions about this project and requirements have been gathered for later meeting with Jonny and academic supervisor.  
+- Questions about this project and requirements have been gathered for later meeting with Jonny and academic supervisor.   
+- talk with Jonny again as soon 
 
-## 3, 2nd meeting with Jonny from micro:bit
-14 May 2019, all team members and Jonny
+## 2nd meeting with Jonny from micro:bit
+14 May 2019, all team members and Jonny  
+
 ** discussion: **
 - possible concepts for keyboard: musical keyboard, game controller, fortnite machine, Makey-Makey, joystick, cardboard edge connector, draw and place, copper tape, graphite, ink, papier machine
 - MakeCode Extension
@@ -68,3 +70,39 @@ all team members, Johny from micro:bit
 - keep brainstorming 
 - meet again early next week
 
+## Team Workshop 
+21 May 2019, all team members
+
+** discussion **
+- possible inputs:
+    - joystick?s?
+    - dial
+    - LED indicator
+    - button / touch sensors as keys
+- case / shape: inspiration from nintendo
+- drawings of concept: triangle:bit
+
+** action points **
+- research suitable components for suggested inputs
+- seek advice from academic supervisor
+
+## 2nd meeting with academic supervisor
+23 May 2019, all team members
+
+** discussion **
+- triangle:bit and modular design
+- physical connection
+    - difficulties
+    - possible solutions
+- electronic connections
+    - wire / contacts / connector
+    - spin contact pins
+    - buses / SPI or I2C network
+- feasibility of graphite tracks and copper tape
+- introduce a drawing ground
+
+** action points **
+- rethink the concept of triangle:bit
+- research suitable electronic connector
+- verify the conductivity of graphite pencil and copper tape
+- verify wires suitable for kids, presumably cable with crocodile clip
