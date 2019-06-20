@@ -12,7 +12,7 @@ Compiling the bits and pieces from notebooks together has been a good review of 
 
 ## Briefing with Jonny  
 30 Apr 2019, 610b  
-all team members, Johny from micro:bit  
+all team members excpet Thomas, Johny from micro:bit  
 - team member self-introduction
 ### From Jonny's briefing
 - 3 sources of knowledge from micro:bit to this project:
@@ -29,7 +29,7 @@ all team members, Johny from micro:bit
     - MakeCode environment
     - typescript  
     
-** action points: **
+**action points:**
 - James will get one micro:bit from Amazon
 - Jonny would send more micro:bits for the team to use
 - research topics:
@@ -57,7 +57,7 @@ all team members, Johny from micro:bit
 ## 2nd meeting with Jonny from micro:bit
 14 May 2019, all team members and Jonny  
 
-** discussion: **
+**discussion:**
 - possible concepts for keyboard: musical keyboard, game controller, fortnite machine, Makey-Makey, joystick, cardboard edge connector, draw and place, copper tape, graphite, ink, papier machine
 - MakeCode Extension
 - HOGP (HID over GATT protocol) 
@@ -65,15 +65,16 @@ all team members, Johny from micro:bit
 - clarified restrictions on power of device
 - additional production design guideline: Cheap and useful, fit onto a student desk/into a bag
 
-** action points: **
+**action points:**
 - research existing accessories and similar products on the market
 - keep brainstorming 
+- verify BLE functionality of micro:bit
 - meet again early next week
 
 ## Team Workshop 
 21 May 2019, all team members
 
-** discussion **
+**discussion**
 - possible inputs:
     - joystick?s?
     - dial
@@ -82,14 +83,15 @@ all team members, Johny from micro:bit
 - case / shape: inspiration from nintendo
 - drawings of concept: triangle:bit
 
-** action points **
+**action points**
 - research suitable components for suggested inputs
+- try to realize BLE keyboard service based on micro:bit_presentor
 - seek advice from academic supervisor
 
 ## 2nd meeting with academic supervisor
 23 May 2019, all team members
 
-** discussion **
+**discussion**
 - triangle:bit and modular design
 - physical connection
     - difficulties
@@ -101,7 +103,7 @@ all team members, Johny from micro:bit
 - feasibility of graphite tracks and copper tape
 - introduce a drawing ground
 
-** action points **
+**action points**
 - rethink the concept of triangle:bit
 - research suitable electronic connector
 - verify the conductivity of graphite pencil and copper tape
@@ -110,7 +112,7 @@ all team members, Johny from micro:bit
 ## Team Workshop
 28 May 2019, all team members
 
-** discussion **
+**discussion**
 - possible example/tutorial for the accessory: 
     - quiz, 
     - battleship, 
@@ -123,8 +125,49 @@ all team members, Johny from micro:bit
     - pin ball, 
     - crossy road
     
-** action points **
+**action points**
 - start the work of hardware prototype
-- develop mbed code for input signals and controls
+- develop mbed code for input signals and related controls
 
+## Leaflet and Posters
+6 Jun 2019, all team members
+
+**discussion:**
+- minimum font for visibility from a distance
+- bubble for content on leaflet
+- pictures / images
+- envelope, printing, marker, crop
+- what sections should be included into poster and key points for each section
+- who is responsible to which section
+
+**action points**
+- review leaflet content and design
+- write contents for poster
+
+## Documentation Discussion
+18 Jun 2019, all team members
+
+**Discussion**
+- what should be included in our documentation
+- job division
+- github platform and mark down files
+
+**action points**
+- start documentation work
+- arrange meeting with Jonny on Thursday
+
+## 3rd meeting with Jonny
+20 Jun 2019, all team members except Aina
+
+**Discussion**
+- issues encountered when merging BLE with DAL
+- YOTTA and other production tool for BLE function development and debug
+- publish this project on micro:bit's platform
+- documentation details
+- future works in summer
+- potential to talk with accesory producer
+
+**action points**
+- keep working on merging BLE with DAL
+- keep working on documentation
 
