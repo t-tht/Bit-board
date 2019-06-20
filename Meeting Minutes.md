@@ -3,6 +3,11 @@
 This meeting minutes in this file are the summeries of meeting notes from members.  
 Compiling the bits and pieces from notebooks together has been a good review of the journey this team has gone through.
 
+## to do s
+- add more team smaller meetings from chat script to complete the timeline
+- delete template when this file is finished
+- team members to contribute more memory to this meeting
+
 ## Template
 - location, date and time  
 - follow up from last meeting
