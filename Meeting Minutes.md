@@ -3,18 +3,18 @@
 This meeting minutes in this file are the summeries of meeting notes from members.  
 
 
-## template
+## Template
 - location, date and time  
 - follow up from last meeting
 - discussion during this meeting
 - agreed action points  
 - estimated next meeting/update
 
-## briefing with Johny  
+## 1, Briefing with Jonny  
 30 Apr 2019, 610b  
 all team members, Johny from micro:bit  
 - team member self-introduction
-### From Johny's briefing
+### From Jonny's briefing
 - 3 sources of knowledge from micro:bit to this project:
     - tech.microbit.org; documentation for previous work done;
     - microbit.org; accessory guide;
@@ -31,7 +31,7 @@ all team members, Johny from micro:bit
     
 - action points:
     - James will get one micro:bit from Amazon
-    - Johny would send more micro:bits for the team to use
+    - Jonny would send more micro:bits for the team to use
     - research topics:
         - MakeCode Extensions
         - BLE library / profile
@@ -40,4 +40,14 @@ all team members, Johny from micro:bit
         - existing accessories like bit:commander
     - summeries reasearch outcome and questions before next Tuesday
     - propose meeting with academic supervisor
-- proposed next team meeting: this Friday
+- proposed next team meeting: before the end of week 1
+
+## 2, Concept Brainstorm
+2 May 2019, all team members
+- ideas discussed:
+    - feature phone
+    - mouse like keyboard
+    - PS4 + keyboard
+    - music controller, piano like keyboard
+- Research outcome has been shared among members.
+- Questions about this project and requirements have been gathered for later meeting with Jonny and academic supervisor.
