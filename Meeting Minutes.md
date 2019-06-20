@@ -1,6 +1,6 @@
 # Meeting Minutes  
 
-This meeting minutes in this file are the summeries of personal meeting notes from members.  
+This meeting minutes in this file are the summeries of meeting notes from members.  
 
 
 ## template
