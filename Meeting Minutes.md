@@ -106,3 +106,25 @@ all team members, Johny from micro:bit
 - research suitable electronic connector
 - verify the conductivity of graphite pencil and copper tape
 - verify wires suitable for kids, presumably cable with crocodile clip
+
+## Team Workshop
+28 May 2019, all team members
+
+** discussion **
+- possible example/tutorial for the accessory: 
+    - quiz, 
+    - battleship, 
+    - blocking, 
+    - potentiometer, 
+    - pictogram, 
+    - maze, 
+    - wire loop, 
+    - comic box, 
+    - pin ball, 
+    - crossy road
+    
+** action points **
+- start the work of hardware prototype
+- develop mbed code for input signals and controls
+
+
