@@ -25,3 +25,14 @@ No. | Date | Topics/Progress Update
 +|+| send update email to Jonny of micro:bit
 13 | 31 May | laser cutting and progress update on circuit construction
 14 | 3 Jun | poster and leaflet, design and division of job
+15 | 6 Jun | final polish to leaflet, 
++|+| changes on poster after getting suggestion from department email
+16 | 7 Jun | lealet printing and submission
+17 | 10 Jun | crop and bleed
++|+| GUI for demo
++|+| different key sets to output
+18 | 11 Jun | test 3 demo examples on prototype
+19 | 12 Jun | prepare for hackabooth
++|+| MakeCode blocks
+20 | 18 Jun | how to do documentation
+21 | 20 Jun | project wrap up
