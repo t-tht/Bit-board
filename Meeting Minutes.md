@@ -1,21 +1,9 @@
 # Meeting Minutes  
 
-This meeting minutes in this file are the summeries of meeting notes from members.  
-Compiling the bits and pieces from notebooks together has been a good review of the journey this team has gone through.
+This meeting minutes in this file are the summeries of meeting notes from members, for major meetings usually involve participants outside the team. This team had regular and less formal meetings throughout the project. Please see the seperate file for the record. Compiling the bits and pieces from notebooks together has been a good review of the journey this team has gone through.
 
-## to do s
-- add more team smaller meetings from chat script to complete the timeline
-- delete template when this file is finished
-- team members to contribute more memory to this meeting
 
-## Template
-- location, date and time  
-- follow up from last meeting
-- discussion during this meeting
-- agreed action points  
-- estimated next meeting/update
-
-## Briefing with Jonny  
+## 1, Briefing with Jonny  
 30 Apr 2019, 610b  
 all team members excpet Thomas, Johny from micro:bit  
 - team member self-introduction
@@ -48,7 +36,7 @@ all team members excpet Thomas, Johny from micro:bit
 
 - proposed next team meeting: before the end of week 1
 
-## Concept Brainstorm
+## 2, Initial Concept Brainstorm
 2 May 2019, all team members
 - ideas discussed:
     - feature phone
@@ -59,7 +47,7 @@ all team members excpet Thomas, Johny from micro:bit
 - Questions about this project and requirements have been gathered for later meeting with Jonny and academic supervisor.   
 - talk with Jonny again as soon 
 
-## 2nd meeting with Jonny from micro:bit
+## 3, 2nd meeting with Jonny from micro:bit
 14 May 2019, all team members and Jonny  
 
 **discussion:**
@@ -76,7 +64,7 @@ all team members excpet Thomas, Johny from micro:bit
 - verify BLE functionality of micro:bit
 - meet again early next week
 
-## Team Workshop 
+## 4, Team Workshop 
 21 May 2019, all team members
 
 **discussion**
@@ -93,7 +81,7 @@ all team members excpet Thomas, Johny from micro:bit
 - try to realize BLE keyboard service based on micro:bit_presentor
 - seek advice from academic supervisor
 
-## 2nd meeting with academic supervisor
+## 5, 2nd meeting with academic supervisor
 23 May 2019, all team members
 
 **discussion**
@@ -114,7 +102,7 @@ all team members excpet Thomas, Johny from micro:bit
 - verify the conductivity of graphite pencil and copper tape
 - verify wires suitable for kids, presumably cable with crocodile clip
 
-## Team Workshop
+## 6, Team Workshop
 28 May 2019, all team members
 
 **discussion**
@@ -132,9 +120,9 @@ all team members excpet Thomas, Johny from micro:bit
     
 **action points**
 - start the work of hardware prototype
-- develop mbed code for input signals and related controls
+- develop mbed code for input signals and related controls for the proposed examples.
 
-## Leaflet and Posters
+## 7, Leaflet and Posters
 6 Jun 2019, all team members
 
 **discussion:**
@@ -149,7 +137,7 @@ all team members excpet Thomas, Johny from micro:bit
 - review leaflet content and design
 - write contents for poster
 
-## Documentation Discussion
+## 8, Documentation Discussion
 18 Jun 2019, all team members
 
 **Discussion**
@@ -161,7 +149,7 @@ all team members excpet Thomas, Johny from micro:bit
 - start documentation work
 - arrange meeting with Jonny on Thursday
 
-## 3rd meeting with Jonny
+## 9, 3rd meeting with Jonny
 20 Jun 2019, all team members except Aina
 
 **Discussion**
