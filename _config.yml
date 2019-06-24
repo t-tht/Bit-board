@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+pages:
+  - Concept:
+    - Concept Generation: concept_generation.md
+    - Concept Selection: concept_selection.md
+    - Product Design Specification (PDS): PDS.md
