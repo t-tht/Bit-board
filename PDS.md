@@ -134,7 +134,7 @@ Users are only required to replace the canvas and insert the micro:bit into the 
 #### Documentation
 Documentation is made into GitHub pages for references:
 
-http://t-tht.github.io/bitboard-docs/
+http://t-tht.github.io/bitboard-docs-mkdocs/
 
 #### Disposal
 As birch plywood is used for the casing, most parts of the bit:board are recyclable. However, electrical components (e.g. batteries, touch sensors and joystick) should be separated from the bit:board before disposal to reduce impact on the environment.
