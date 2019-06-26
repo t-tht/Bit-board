@@ -14,9 +14,9 @@ Based on the circuit diagram above, the components required for the prototype we
 * [Joystick](#joystick)
 * [Capacitive Touch Sensor](#capacitive-touch-sensor)
 * [Bi-colour LED](#bi-colour-led)
-* [Switch](#switches)
-* [Resistor](#resistors)
-* [micro:bit Breakout Board](#micro:bit-breakout-board)
+* [Switch](#switch)
+* [Resistor](#resistor)
+* [micro:bit Breakout Board](#microbit-breakout-board)
 
 ## Joystick
 [<img src="https://github.com/t-tht/bitboard-docs/raw/master/Images/Joystick.jpg" alt="Image2" title="2-Axis Joystick" width="150" height="150"/>](https://github.com/t-tht/bitboard-docs/raw/master/Images/Joystick.jpg)
@@ -43,7 +43,7 @@ This is a MAX4544 switch, which is a single-pole, double-throw (SPDT) analogue s
 
 The use of resistors in the prototype stripboard is to control the amount of current in the curcuit, in order to prevent any damages to the LEDs. By allowing more current to flow, the LEDs will glow brighter. For a significant brightness, a 220 Ω resistor is used for green light and a 750 Ω resistor is used for red light.
 
-## micro:bit Breakout Board
+## Micro:bit Breakout Board
 [<img src="https://github.com/t-tht/bitboard-docs/raw/master/Images/Breakout_Board.jpg" alt="Image7" title="Breakout Board" width="150" height="150"/>](https://github.com/t-tht/bitboard-docs/raw/master/Images/Breakout_Board.jpg)
 
 An edge connector is used to allow direct access to the pins of the micro:bit. However, a breakout board is required for the prototype stripboard because the pitch of the edge connector is too narrow for the stripboard. The breakout board used also reduced the number of pins from the edge connector to the actual number of distinct pins avaiable from the micro:bit.
