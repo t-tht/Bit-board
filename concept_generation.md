@@ -20,9 +20,9 @@ As seen from above, this design allows flexibility in shapes of the product, mak
 
 ### Blocks
 Three types of blocks are considered: input blocks, intermediate blocks and the main block.
-* Input blocks: Inputs including joystick, touch sensors and dial
-* Intermediate blocks: provides connection between input blocks and the main block
-* The main block: holds the micro:bit
+- Input blocks: Inputs including joystick, touch sensors and dial
+- Intermediate blocks: provides connection between input blocks and the main block
+- The main block: holds the micro:bit
 
 ## bit:board
 bit:board - takes its name from clipboard - includes a canvas and a set of fixed inputs(joystick and 4 touch sensors). bit:board unleashes user's imagination and explores the potential of micro:bit. Users can draw their own buttons - similar to sketch:it - but could also make use of the fixed inputs. The difference between bit:board and sketch:it is that bit:board is more oriented to developing an understanding of electronic circuits; bit:board makes pins of micro:bit more accessible, giving more flexibility in input creation.
@@ -34,6 +34,6 @@ The canvas should ideally take the size of A5, and held down by clips which is h
 
 ### Change of input modes
 bit:board allows 3 input modes, and can be changed via crocodile clips:
-* Fixed inputs: allows user to make use to the fixed inputs only(i.e. joystick and 4 touch sensors)
-* Customized inputs: users can create their own inputs to micro:bit via different means of conducting material such as graphite pencils or copper tape
-* Mixed inputs: users could make use of both fixed inputs and customized inputs at the same time, depending on pin arrangement of the micro:bit
+- Fixed inputs: allows user to make use to the fixed inputs only(i.e. joystick and 4 touch sensors)
+- Customized inputs: users can create their own inputs to micro:bit via different means of conducting material such as graphite pencils or copper tape
+- Mixed inputs: users could make use of both fixed inputs and customized inputs at the same time, depending on pin arrangement of the micro:bit

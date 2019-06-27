@@ -89,11 +89,11 @@ bit:board should be stored in a cool,dry place to prevent any issue rising from 
 BLE should be tested before being released to the market
 
 #### Processes
-* Laser cutting of the wooden case
+- Laser cutting of the wooden case
 
-* Creation of MakeCode package
+- Creation of MakeCode package
 
-* Circuit Design
+- Circuit Design
 
 #### Time Scale
 Idea generation from meeting with client - Summer term week 0-1
