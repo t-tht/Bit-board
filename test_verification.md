@@ -99,7 +99,7 @@ The clip is made from **copper but plated with tin**. The clip is able to conduc
 Custom blocks that provide different keys of a keyboard were created using TypeScript and they were tested on the [MakeCode Playground](https://makecode.com/playground) to visualise the format of the blocks.
 
 ### Test 2: Custom keyboard services
-Instead of just sending "string" via Bluetooth, keyboard commands such as _enter_ and _backspace_ were tested using the microbit_presenter Mbed file.
+Instead of just sending "string" via Bluetooth, keyboard commands such as _enter_ and _backspace_ were tested using the microbit_presenter mbed file.
 
 ## Hardware & Software Integration
 ### Test 1: Fixed inputs
