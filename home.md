@@ -15,7 +15,7 @@ The Foundation was legally established with the support of its founding members 
 
 # About bit:board
 
-![bit:board's logo](https://raw.githubusercontent.com/t-tht/bitboard-docs/master/Images/bitboardlogo.png)
+<img src="https://raw.githubusercontent.com/t-tht/bitboard-docs/master/Images/bitboardlogo.png" width="370" />
 
 The bit:board is created to be in sync with the ethos of The micro:bit Educational Foundation. In addition, to provide a more friendly environment for younger audiences to get into programming and engineering.
 The bit:board serves as a stepping stone for our target audience into the STEM world.
