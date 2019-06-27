@@ -2,7 +2,7 @@
 
 A stripboard was used to connect the fixed set of inputs (joystick and touch sensors) to the BBC micro:bit.
 
-The following circuit diagram illustrates how the inputs are interconnected and shows the neccesary components required to complement the inputs.
+The following circuit diagram illustrates how the inputs are interconnected and shows the necessary components required to complement the inputs.
 
 [![Image](https://github.com/t-tht/bitboard-docs/raw/master/Images/Circuit_Diagram.jpg "Circuit Diagram")](https://github.com/t-tht/bitboard-docs/raw/master/Images/Circuit_Diagram.jpg)
 
@@ -41,9 +41,9 @@ This is a MAX4544 switch, which is a single-pole, double-throw (SPDT) analogue s
 ## Resistor
 [<img src="https://github.com/t-tht/bitboard-docs/raw/master/Images/Resistor.jpg" alt="Image6" title="Through Hole Resistor" width="150" height="150"/>](https://github.com/t-tht/bitboard-docs/raw/master/Images/Resistor.jpg)
 
-The use of resistors in the prototype stripboard is to control the amount of current in the curcuit, in order to prevent any damages to the LEDs. By allowing more current to flow, the LEDs will glow brighter. For a significant brightness, a 220 Ω resistor is used for green light and a 750 Ω resistor is used for red light.
+The use of resistors in the prototype stripboard is to control the amount of current in the circuit, in order to prevent any damages to the LEDs. By allowing more current to flow, the LEDs will glow brighter. For a significant brightness, a 220 Ω resistor is used for green light and a 750 Ω resistor is used for red light.
 
-## Micro:bit Breakout Board
+## micro:bit Breakout Board
 [<img src="https://github.com/t-tht/bitboard-docs/raw/master/Images/Breakout_Board.jpg" alt="Image7" title="Breakout Board" width="150" height="150"/>](https://github.com/t-tht/bitboard-docs/raw/master/Images/Breakout_Board.jpg)
 
-An edge connector is used to allow direct access to the pins of the micro:bit. However, a breakout board is required for the prototype stripboard because the pitch of the edge connector is too narrow for the stripboard. The breakout board used also reduced the number of pins from the edge connector to the actual number of distinct pins avaiable from the micro:bit.
+An edge connector is used to allow direct access to the pins of the micro:bit. However, a breakout board is required for the prototype stripboard because the pitch of the edge connector is too narrow for the stripboard. The breakout board used also reduced the number of pins from the edge connector to the actual number of distinct pins available from the micro:bit.
