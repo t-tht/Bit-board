@@ -98,10 +98,8 @@ void touch_control(){
 }
 ```
 ### Within main
-We initialise some services
+A ticker object is created to call waiting() in every certain amount of time, in this case, we will choose 1 second.
 ```c++
-    
-    // create ticker object to call waiting() in every certain amount of time.
     Ticker heartbeat;
     
     // call function send_one and send_zero if button A and B is pressed on the rising edge
@@ -111,7 +109,7 @@ We initialise some services
     // call waiting every 1 second using the ticker object
     heartbeat.attach(waiting, 1);
 ```
-
+The BLE object needs to be initialised after being constructed, the callback function onConnect and onDisconnect is also 'attached' in the event of a connect and disconnect sent from the GAP service.
 ```c++
 // initialise ble object
     ble.init();
@@ -120,18 +118,47 @@ We initialise some services
     ble.gap().onDisconnection(onDisconnect);
     ble.gap().onConnection(onConnect);
 ```
-
+For the micro:bit to advertise itself as a BLE HID Keyboard, the ble object must contain the suitable security properties, device information and battery service information.
+- [initializeSecurity(ble)](#initializesecurity) adds security properties required.
+- KeyboardService(ble) adds a keyboard service to the GATT table inside the BLE object
+- initializeHOGP adds more information to the BLE object, such as a pnp id and battery service information required for HOGP (HID Over Gatt Protocol)
 ```c++
-// initialise security properties of the ble object
     initializeSecurity(ble);
  
-    // adding hid keyboard service to the ATT table
     KeyboardService kbdService(ble);
     kbdServicePtr = &kbdService;
- 
-    // add device information and battery service
+
     initializeHOGP(ble);
 ```
+GAP handles device discovery, link establishment, link termination and more. The GAP service is then used to advertise the micro:bit as a BLE HID Keyboard. 
+```c++
+// setting up gap service
+    ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::KEYBOARD);
+    ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::COMPLETE_LOCAL_NAME,
+                                           (uint8_t *)DEVICE_NAME, sizeof(DEVICE_NAME));
+    ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::SHORTENED_LOCAL_NAME,
+                                           (uint8_t *)SHORT_DEVICE_NAME, sizeof(SHORT_DEVICE_NAME));
+    ble.gap().setDeviceName((const uint8_t *)DEVICE_NAME);
+ 
+    // advertise device
+    ble.gap().startAdvertising();
+```
+We then implement a polling rate of 125Hz for the keyboard. 125Hz is chosen instead of 1000Hz to conserve power.
+```c++
+while (true) {
+        ble.waitForEvent();  
+        JoystickControl();  
+        touch_control();
+        // poll every 8ms, or 125Hz
+        wait_ms(8);
+    }
+```
+
+### initializeSecurity()
+It is important to initialize the security properties for the BLE object, this is done to prevent the security issues during the pairing process, these security issues include:
+- Passive eavesdropping
+- MITM (man-in-the-middle) attacks 
+- Identity tracking.
 ```c++
 void initializeSecurity(BLE &ble)
 {
@@ -145,7 +172,8 @@ void initializeSecurity(BLE &ble)
     ble.securityManager().init(enableBonding, requireMITM, HID_SECURITY_IOCAPS);
 }
 ```
-
+### Inside initializeHOGP()
+Device information and Battery service is required for the device to advertise itself to client device.
 ```c++
 void initializeHOGP(BLE &ble)
 {
@@ -174,23 +202,3 @@ void initializeHOGP(BLE &ble)
 }
 ```
 
-```c++
-// setting up gap service
-    ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::KEYBOARD);
-    ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::COMPLETE_LOCAL_NAME,
-                                           (uint8_t *)DEVICE_NAME, sizeof(DEVICE_NAME));
-    ble.gap().accumulateAdvertisingPayload(GapAdvertisingData::SHORTENED_LOCAL_NAME,
-                                           (uint8_t *)SHORT_DEVICE_NAME, sizeof(SHORT_DEVICE_NAME));
-    ble.gap().setDeviceName((const uint8_t *)DEVICE_NAME);
- 
-    // advertise device
-    ble.gap().startAdvertising();
-```
-
-```c++
-while (true) {
-        ble.waitForEvent();  
-        JoystickControl();  
-        touch_control();
-    }
-```
