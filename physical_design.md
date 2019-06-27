@@ -1,7 +1,7 @@
 # Physical Design
 
 ## Material
-In order to keep the protoype as environmental-friendly as possible, the main material used to create the prototype  is **birch plywood** instead of arcylic.
+In order to keep the prototype as environmental-friendly as possible, the main material used to create the prototype  is **birch plywood** instead of acrylic.
 
 ## Dimensions
 The ideal size of the product should be **small** enough for the user to keep it inside a **school bag**.
@@ -39,7 +39,7 @@ LED | - | 5
 A5-sized paper is suggested to be the size of the canvas because it is easily accessible by cutting an A4 paper into halves. The paper canvas can also be replaced with a fresh new piece simply by sliding the old paper out of the cable clips then slide in the new one.
 
 ## Assembly
-1. After all the panels required to build the case for the prototype were laser cut, all the panels were binded together using super glue except the cover.
+1. After all the panels required to build the case for the prototype were laser cut, all the panels were bound together using super glue except the cover.
 
 2. The micro:bit breakout board was secured onto the base of the case and the stripboard was secured onto the cushion panel.
 
