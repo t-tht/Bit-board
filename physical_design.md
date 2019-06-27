@@ -6,7 +6,7 @@ In order to keep the protoype as environmental-friendly as possible, the main ma
 ## Dimensions
 The ideal size of the product should be **small** enough for the user to keep it inside a **school bag**.
 
-The file used for laser cutting and the dimensions for all the parts can be found here: https://github.com/t-tht/bitboard-docs/blob/master/bitboard_lasercut.svg
+The file used for laser cutting and the dimensions for all the parts can be found here: [https://github.com/t-tht/bitboard-docs/blob/master/bitboard_lasercut.svg](https://github.com/t-tht/bitboard-docs/blob/master/bitboard_lasercut.svg)
 
 ### Wooden Case
 
