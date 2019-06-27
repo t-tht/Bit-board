@@ -2,7 +2,7 @@
 
 Instead of using a stripboard to make the electrical connections for the fixed set of inputs, a printed circuit board will be made for the actual product itself.
 
-Based on the circuit diagram used for the prototype, most components were preserved for the build of the PCB except for the touch sensors. The PCB will have a self made touch sensor circuit on it by making use of the reference circuit provided by the TTP223 IC datasheet.
+Based on the circuit diagram used for the prototype, most components were preserved for the build of the PCB except for the touch sensors. The PCB will have a self-made touch sensor circuit on it by making use of the reference circuit provided by the TTP223 IC datasheet.
 
 The files required to produce the PCB can be downloaded here: [https://github.com/t-tht/bitboard-docs/blob/master/bitboard_PCB.Zip](https://github.com/t-tht/bitboard-docs/blob/master/bitboard_PCB.Zip)
 
