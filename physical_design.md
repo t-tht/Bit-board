@@ -13,7 +13,7 @@ The file used for laser cutting and the dimensions for all the parts can be foun
 [![Image](https://github.com/t-tht/bitboard-docs/raw/master/Images/bitboard_dimensions1.png "Panels")](https://github.com/t-tht/bitboard-docs/raw/master/Images/bitboard_dimensions1.png)
 
 Panel | Dimension (mm x mm)
---- | :---:
+--- | ---
 Left (LP) | 272 x 18
 Inner Left (ILP) | 260 x 15
 Right (RP) | 240 x 18
@@ -29,7 +29,7 @@ Cushion (C) | 210 x 40
 [![Image2](https://github.com/t-tht/bitboard-docs/raw/master/Images/bitboard_dimensions2.png "Base & Cover")](https://github.com/t-tht/bitboard-docs/raw/master/Images/bitboard_dimensions2.png)
 
 Cutout | Dimension (mm x mm) | Diameter (mm)
---- | :---: | :---:
+--- | --- | ---
 Touch Sensor | 16 x 6 | -
 Paper Canvas Clip | 190 x 7 | -
 Joystick | - | 30
