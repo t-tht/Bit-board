@@ -1,6 +1,6 @@
 # Test & Verification
 
-In order to ensure that the prototype is working as intended, a few tests were conducted at different stages to identify any faults in hardware and bugs in software.
+To ensure that the prototype is working as intended, a few tests were conducted at different stages to identify any faults in hardware and bugs in software.
 
 ## Hardware
 ### Test 1: Individual electronic components
@@ -92,7 +92,7 @@ Graphite conducts electricity but it could not be used to replace wires because 
 Copper is a good conductor and there is no voltage drop across it. The **adhesive side** of the copper tape is **conductive** as well.
 
 * Cable Clip  
-The clip is made from **copper but plated with tin**. The clip is able to conduct electricity despite having the coating. allowing the clip to be used not just for **stablising the paper canvas** but also act as electrical connection points.
+The clip is made from **copper but plated with tin**. The clip is able to conduct electricity despite having the coating. allowing the clip to be used not just for **securing the paper canvas** but also as an electrical connection point.
 
 ## Software
 ### Test 1: Custom MakeCode extension
