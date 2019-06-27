@@ -1,8 +1,10 @@
-# About Micro:bit
+# About micro:bit
 
-The Micro:bit Educational Foundation is a not for profit organisation. With the vision to inspire every child to create their best digital future.
+![BBC micro:bit's logo](https://raw.githubusercontent.com/t-tht/bitboard-docs/master/Images/microbitlogo.png)
 
-The Foundation was legally established with the support of its founding members (including the BBC) in September 2016. It became fully operational on 18th October 2016. The Micro:bit Educational Foundation is a UK based organisation and redistributes the bulk of any surplus money generated into providing free devices to exceptional micro:bit educational programmes across the globe.
+The micro:bit Educational Foundation is a not-for-profit organisation. With the vision to inspire every child to create their best digital future.
+
+The Foundation was legally established with the support of its founding members (including the BBC) in September 2016. It became fully operational on 18th October 2016. The micro:bit Educational Foundation is a UK-based organisation and redistributes profit into providing free devices to exceptional micro:bit educational programmes across the globe.
 
 ### Mission Statement
 - To enable and inspire all children to participate in the digital world, with particular focus on girls and those from disadvantaged groups.
@@ -13,5 +15,7 @@ The Foundation was legally established with the support of its founding members 
 
 # About bit:board
 
-The bit:board is created to be in sync with the ethos of The Micro:bit Educational Foundation. In addition, to provide a more friendly environment for younger audiences to get into programming and engineering.
-The bit:board serves as a stepping stone for our target audience into the STEM world. 
+![bit:board's logo](https://raw.githubusercontent.com/t-tht/bitboard-docs/master/Images/bitboardlogo.png)
+
+The bit:board is created to be in sync with the ethos of The micro:bit Educational Foundation. In addition, to provide a more friendly environment for younger audiences to get into programming and engineering.
+The bit:board serves as a stepping stone for our target audience into the STEM world.
